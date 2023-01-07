@@ -1,0 +1,76 @@
+.portada {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 800px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.road {
+  width: 400px;
+  height: 100000px;
+  background: url('../images/road.png');
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+}
+
+.car {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: url('../images/car.png');
+}
+
+.traffic {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: url('../images/enemy.png');
+}
+
+.scoreboard {
+  position: absolute;
+  top: 0px;
+  right: 130px;
+  font-size: 20px;
+}
+
+.game-over {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 200px;
+  top: 0px;
+  font-size: 20px;
+  display: none;
+  background: url('../images/gameover.png');
+}
+
+.bullet {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('../images/bullet.png');
+}
+
+.btn-retry {
+  width: 100px;
+  height: 100px;
+  bottom: 100px;
+  left: 150px;
+  position: absolute;
+}

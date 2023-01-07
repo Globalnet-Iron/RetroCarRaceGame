@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Retro Race Car Game</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="portada">
+      <div id="welcome">
+        <h1>Retro Race Car Game</h1>
+        <button id="btnReproducir">Reproducir sonido</button>
+        <button id="btnPausar">Pausar sonido</button>
+        <button id="btnReiniciar">Ir a inicio de sonido</button>
+      </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="road">
+        </div>
+      </div>
+      <div class="game-over">
+        <button class="btn-retry">Retry</button>
+      </div>
+      <div class="scoreboard">
+        <p>Tiempo</p>
+        <span id="score"></span>
+        <p>Balas</p>
+        <span id="bullets"></span>
+      </div>
+      <p>Presionar "SpaceBar" para disparar</p>
+    </div>
+    <script src="js/Bullet.js"></script>
+    <script src="js/Car.js"></script>
+    <script src="js/Traffic.js"></script>
+    <script src="js/CarGame.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
